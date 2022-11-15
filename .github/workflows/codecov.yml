@@ -3,6 +3,13 @@ on:
   push:
   workflow_dispatch:
     inputs:
+      name:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Run this workflow?'
+        # Default value if no value is explicitly provided
+        default: 'Yes'
+        # Input has to be provided for the workflow to run
+        required: true
 jobs:
   run:
     runs-on: ubuntu-latest
