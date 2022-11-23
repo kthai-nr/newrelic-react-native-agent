@@ -1,5 +1,6 @@
 [![Community Plus header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
 
+[![npm](https://img.shields.io/npm/v/newrelic-react-native-agent?color=blue)](https://www.npmjs.com/package/newrelic-react-native-agent)
 [![codecov](https://codecov.io/github/kthai-nr/newrelic-react-native-agent/branch/main/graph/badge.svg)](https://codecov.io/github/kthai-nr/newrelic-react-native-agent)
 
 # New Relic React Native Agent
