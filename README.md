@@ -1,5 +1,7 @@
 [![Community Plus header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
 
+[![codecov](https://codecov.io/github/kthai-nr/newrelic-react-native-agent/branch/main/graph/badge.svg?token=HSUJ9CDZSB)](https://codecov.io/github/kthai-nr/newrelic-react-native-agent)
+
 # New Relic React Native Agent
 
 This agent uses native New Relic Android and iOS agents to instrument the React-Native Javascript environment. The New Relic SDKs collect crashes, network traffic, and other information for hybrid apps using native components.
@@ -412,5 +414,3 @@ Currently there is no symbolication of Javascript errors. Please follow the step
 
 * To create a useful name, you might combine several attributes.
 ```
-
-Fake PR TEST
