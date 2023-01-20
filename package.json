@@ -93,7 +93,7 @@
       "newrelic": "7.4.0"
     },
     "android": {
-      "newrelic": "6.9.2"
+      "newrelic": "455"
     }
   }
 }
