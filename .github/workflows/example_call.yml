@@ -1,0 +1,16 @@
+name: Example call
+on:
+  workflow_dispatch:
+    inputs:
+      VERSION_NUMBER:
+        required: true
+        type: string
+      IS_ANDROID_AGENT:
+        required: true
+        type: boolean
+jobs:
+  run_other_workflow:
+    uses: ./.github/workflows/update_native_agent_version.yml
+    with:
+      VERSION_NUMBER: ${{ github.event.inputs.VERSION_NUMBER }}
+      IS_ANDROID_AGENT: true
