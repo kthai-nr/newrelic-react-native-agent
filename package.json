@@ -90,7 +90,7 @@
   },
   "sdkVersions": {
     "ios": {
-      "newrelic": "7.4.0"
+      "newrelic": "455"
     },
     "android": {
       "newrelic": "6.9.2"
